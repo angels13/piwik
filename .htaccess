@@ -1,0 +1,13 @@
+RewriteEngine on
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# 将“ea-php70” 资源包设置为默认“PHP” 编程语言。
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php70 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+RewriteRule .*\.()$ - [F,NC]
+
+RewriteRule .*\.()$ - [F,NC]
+
